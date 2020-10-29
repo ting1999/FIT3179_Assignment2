@@ -13,7 +13,7 @@
       "mark": {
             "type": "geoshape", 
             "fill": "lightgray", 
-            "stroke": "black"
+            "stroke": "gray"
       }
     },
     {
@@ -56,7 +56,7 @@
     {
       "data": {
         "values": [
-          {"Country": "United States", "lat": 40, "long": -105},
+          {"Country": "United States", "lat": 43, "long": -115},
           {"Country": "China", "lat": 35, "long": 100},
           {"Country": "Russian Federation", "lat": 60, "long": 105},
           {"Country": "Japan", "lat": 40, "long": 150},
