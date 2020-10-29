@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 1000,
+  "height": 600,
+  "title": "Distribution of nuclear power plants all over the worlds",
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/js/worldmap.topojson",
+        "format": {"type": "topojson", "feature": "worldmap"}
+      },
+      "mark": {
+            "type": "geoshape", 
+            "fill": "lightgray", 
+            "stroke": "black"
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/js/worldmap.topojson",
+        "format": {"type": "topojson", "feature": "worldmap"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.name_long",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/choropleth_map.csv"
+            },
+            "key": "Country",
+            "fields": ["Total"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Total",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [1, 10, 50, 100],
+            "range": [
+              "lightgray",
+              "#66bd63",
+              "#a6d96a",
+              "#fee08b",
+              "#fdae61"
+            ]
+          },
+        "legend": {"title": "Number of Nuclear Power Plants per Country"}
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"Country": "United States", "lat": 40, "long": -105},
+          {"Country": "China", "lat": 35, "long": 100},
+          {"Country": "Russian Federation", "lat": 60, "long": 105},
+          {"Country": "Japan", "lat": 40, "long": 150},
+          {"Country": "France", "lat": 47, "long": -10}
+        ]
+      },
+      "mark": {"type": "text", "fontSize": 12, "fontStyle": "italic"},
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "longitude": {"field": "long", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/nuclear_power_plants.csv"
+      },
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"}
+      },
+      "layer": [
+        {
+          "transform": [{"filter": "datum['Longitude'] != '' && datum['Latitude'] != ''"}],
+          "mark": {"type": "circle"},
+          "encoding": {
+            "color": {"value": "red"},
+            "opacity": {"value": 0.6},
+            "tooltip": [
+              {"field": "Name", "type": "nominal"},
+              {"field": "Country", "type": "nominal"}
+            ]
+          }
+        }
+        
+      ]
+    }
+  ]
+}
