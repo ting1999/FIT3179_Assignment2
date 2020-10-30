@@ -50,7 +50,11 @@
             ]
           },
           "legend": {"format": ",", "title": "Nuclear Energy (MWe)"}
-        }
+        },
+        "tooltip": [
+          {"field": "properties.name_long", "type": "nominal", "title": "Country"},
+          {"field": "Capacity", "type": "quantitative", "title": "Nuclear Energy", "format": ","}
+        ]
       }
     },
     {
@@ -85,8 +89,8 @@
             "color": {"value": "red"},
             "opacity": {"value": 0.6},
             "tooltip": [
-              {"field": "Name", "type": "nominal"},
-              {"field": "Country", "type": "nominal"}
+              {"field": "Name", "type": "nominal", "title": "Nuclear Power Plant's Name"},
+              {"field": "Country", "type": "nominal", "title": "Nuclear Power Plant's Country"}
             ]
           }
         }
