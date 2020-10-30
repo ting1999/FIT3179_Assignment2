@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 750,
+  "width": 900,
   "height": 600,
   "projection": {"type": "equalEarth"},
   "params": [
