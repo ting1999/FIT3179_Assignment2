@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 1000,
+  "width": 800,
   "height": 600,
   "title": "Reactor Type of Nuclear Power Plants in different Country",
   "projection": {"type": "equalEarth"},
