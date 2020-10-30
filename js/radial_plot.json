@@ -17,7 +17,28 @@
   "encoding": {
     "theta": {"field": "Total", "type": "quantitative", "stack": true},
     "radius": {"field": "Total", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
-    "color": {"field": "Status", "type": "nominal"},
+    "color": {
+      "field": "Status", 
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Cancelled Construction",
+          "Operational",
+          "Planned",
+          "Shutdown",
+          "Suspended Construction",
+          "Under Construction"
+        ],
+        "range": [
+          "#984ea3",
+          "#1aa260",
+          "#a6cee3",
+          "#e41a1c",
+          "#a65628",
+          "#377eb8"
+        ]
+      }
+    },
     "tooltip": [
       {"field": "Status", "type": "nominal"},
       {"field": "Total", "type": "quantitative", "title": "Number of Nuclear Power Plant"}
