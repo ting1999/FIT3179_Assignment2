@@ -3,18 +3,21 @@
   "width": 800,
   "height": 600,
   "title": "Number of Nuclear Power Plant Construction all over the world every year",
-  "data": {"url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/nuclear_power_plants.csv"},
-  "transform": [
-    {"filter": "datum['ConstructionStartAt']"}
-  ],
-  "mark": "area",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/nuclear_power_plants.csv"
+  },
+  "transform": [{"filter": "datum['ConstructionStartAt']"}],
+  "mark": {"type": "area", "line": true, "point": true, "tooltip": true},
   "encoding": {
     "x": {
-      "timeUnit": "year", "field": "ConstructionStartAt",
-      "axis": {"format": "%Y"}
+      "timeUnit": "year",
+      "field": "ConstructionStartAt",
+      "axis": {"format": "%Y"},
+      "title": "Construction Year"
     },
     "y": {
-      "aggregate": "count", "field": "ConstructionStartAt",
+      "aggregate": "count",
+      "field": "ConstructionStartAt",
       "title": "Number of Nuclear Power Plants"
     }
   }
