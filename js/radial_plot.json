@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 600,
+  "height": 400,
+  "title": "Status of Nuclear Power Plants all over the world",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/radial_plot.csv"
+  },
+  "layer": [{
+    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+  },{
+    "mark": {"type": "text", "radiusOffset": 10},
+    "encoding": {
+      "text": {"field": "Total", "type": "quantitative"}
+    }
+  }],
+  "encoding": {
+    "theta": {"field": "Total", "type": "quantitative", "stack": true},
+    "radius": {"field": "Total", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+    "color": {"field": "Status", "type": "nominal"},
+    "tooltip": [
+      {"field": "Status", "type": "nominal"},
+      {"field": "Total", "type": "quantitative", "title": "Number of Nuclear Power Plant"}
+    ]
+  },
+  "view": {"stroke": null}
+}
