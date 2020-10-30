@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 400,
   "height": 300,
-  "title": "Status of Nuclear Power Plants all over the world",
   "data": {
     "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/radial_plot.csv"
   },
