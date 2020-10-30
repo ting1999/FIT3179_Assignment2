@@ -10,11 +10,35 @@
 <body>
   
 <div id="vis1"></div>
+<div id="vis2"></div>
+<div id="vis3"></div>
+<div id="vis4"></div>
+<div id="vis5"></div>
 
 <script type="text/javascript">
 
-  var spec1 = "js/";
+  var spec1 = "js/dot_density_map+choropleth_map.json";
   vegaEmbed('#vis1', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec2 = "js/proportional_symbol_map.json";
+  vegaEmbed('#vis2', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec3 = "js/radial_plot.json";
+  vegaEmbed('#vis3', spec3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec4 = "js/area_chart.json";
+  vegaEmbed('#vis4', spec4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec5 = "js/matrix_plot.json";
+  vegaEmbed('#vis5', spec5).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
