@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Number of Nuclear Power Plant Construction in different Countries every year",
+  "data": {"url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/nuclear_power_plants.csv"},
+  "transform": [
+    {"filter": "datum['ConstructionStartAt'] && datum['Country']"}
+  ],
+  "mark": "area",
+  "encoding": {
+    "facet": {
+      "field": "Country",
+      "type": "nominal",
+      "columns": 6
+    },
+    "x": {
+      "timeUnit": "year", "field": "ConstructionStartAt",
+      "axis": {"format": "%Y"}
+    },
+    "y": {
+      "aggregate": "count", "field": "ConstructionStartAt",
+      "title": "Number of Nuclear Power Plants"
+    }
+  }
+}
