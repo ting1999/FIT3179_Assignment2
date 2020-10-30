@@ -5,7 +5,7 @@
   "transform": [
     {"filter": "datum['ConstructionStartAt'] && datum['Country']"}
   ],
-  "mark": "area",
+  "mark": {"type": "bar", "line": true, "point": true, "tooltip": true},
   "encoding": {
     "facet": {
       "field": "Country",
@@ -14,7 +14,7 @@
     },
     "x": {
       "timeUnit": "year", "field": "ConstructionStartAt",
-      "axis": {"format": "%Y"}
+      "axis": {"format": "%Y"}, "title": "Construction Year"
     },
     "y": {
       "aggregate": "count", "field": "ConstructionStartAt",
