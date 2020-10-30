@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 155,
+  "width": 152,
   "title": "Number of Nuclear Power Plant Construction in different Countries every year",
   "data": {"url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/nuclear_power_plants.csv"},
   "transform": [
