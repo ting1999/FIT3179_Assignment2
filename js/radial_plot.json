@@ -40,11 +40,15 @@
       }
     },
     "tooltip": [
-      {"field": "Status", "type": "nominal"},
+      {
+        "field": "Status", 
+        "type": "nominal",
+        "title": "Status of Nuclear Power Plants"
+      },
       {
         "field": "Total",
         "type": "quantitative",
-        "title": "Number of Nuclear Power Plant"
+        "title": "Number of Nuclear Power Plants"
       }
     ]
   },
