@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 300,
-  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/radial_plot.csv"
   },
