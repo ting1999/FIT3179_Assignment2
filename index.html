@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nuclear Data Visualisation</title>
+  <title>World Nuclear Data </title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
@@ -20,10 +20,10 @@
     h1{
       font-weight: 900;
     }
-     body{
+    body{
        background-color: lightgray;
-     }
-     .page{
+    }
+    .page{
        width: 1000px;    
        background-color: white;   
        margin: auto;
@@ -146,7 +146,7 @@
 
 <script type="text/javascript">
 
-  var spec1 = "js/dot_density_map+choropleth_map.json";
+  var spec1 = "js/choropleth_map.json";
   vegaEmbed('#vis1', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
