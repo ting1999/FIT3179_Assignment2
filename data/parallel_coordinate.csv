@@ -1,0 +1,172 @@
+,Name,Country,ConstructionStartAt,OperationalFrom,OperationalTo
+0,Ågesta,Sweden,1957,1964,1974
+9,Aktau (Shevchenko),Kazakhstan,1964,1973,1999
+15,APS-1 Obninsk,Russian Federation,1951,1954,2002
+18,Armenia-1 (Armenian-1 / Metsamor),Armenia,1969,1977,1989
+35,Barseback-1,Sweden,1971,1975,1999
+36,Barseback-2,Sweden,1973,1977,2005
+45,Beloyarsk-1,Russian Federation,1958,1964,1983
+46,Beloyarsk-2,Russian Federation,1962,1969,1990
+50,Berkeley-1,United Kingdom,1957,1962,1989
+51,Berkeley-2,United Kingdom,1957,1962,1988
+54,Biblis-A,Germany,1970,1975,2011
+55,Biblis-B,Germany,1972,1977,2011
+56,Big Rock Point,United States,1960,1963,1997
+57,Bilibino-1,Russian Federation,1970,1974,2019
+65,Bohunice-1,Slovakia,1972,1980,2006
+66,Bohunice-2,Slovakia,1972,1981,2008
+69,Bohunice-A1,Slovakia,1958,1972,1977
+70,Bonus,United States,1960,1965,1968
+72,BR-3,Belgium,1957,1962,1987
+73,Bradwell-1,United Kingdom,1957,1962,2002
+74,Bradwell-2,United Kingdom,1957,1962,2002
+90,Brunsbuettel,Germany,1970,1977,2011
+93,Bugey-1,France,1965,1972,1994
+104,Calder Hall-1,United Kingdom,1953,1956,2003
+105,Calder Hall-2,United Kingdom,1953,1957,2003
+106,Calder Hall-3,United Kingdom,1955,1958,2003
+107,Calder Hall-4,United Kingdom,1955,1959,2003
+111,Caorso,Italy,1970,1981,1990
+113,Carolinas CVTR,United States,1960,1963,1967
+126,Chapelcross-1,United Kingdom,1955,1959,2004
+127,Chapelcross-2,United Kingdom,1955,1959,2004
+128,Chapelcross-3,United Kingdom,1955,1959,2004
+129,Chapelcross-4,United Kingdom,1955,1960,2004
+134,Chernobyl-1,Ukraine,1970,1978,1996
+135,Chernobyl-2,Ukraine,1973,1979,1991
+136,Chernobyl-3,Ukraine,1976,1982,2000
+137,Chernobyl-4,Ukraine,1979,1984,1986
+138,Chin Shan-1,Taiwan,1972,1978,2018
+140,Chinon-A1,France,1957,1964,1973
+141,Chinon-A2,France,1959,1965,1985
+142,Chinon-A3,France,1961,1966,1990
+147,Chooz-A,France,1962,1967,1991
+162,Crystal River-3,United States,1968,1977,2013
+185,Douglas Point,Canada,1960,1968,1984
+186,Dounreay DFR,United Kingdom,1955,1962,1977
+187,Dounreay PFR,United Kingdom,1966,1976,1994
+188,Dresden-1,United States,1956,1960,1978
+196,Dungeness-A1,United Kingdom,1960,1965,2006
+197,Dungeness-A2,United Kingdom,1960,1965,2006
+201,EL-4 (Monts D'Arree),France,1962,1968,1985
+202,Elk River,United States,1959,1964,1968
+205,Enrico Fermi,Italy,1961,1965,1990
+206,Enrico Fermi-1,United States,1956,1966,1972
+223,Fort Calhoun-1,United States,1968,1973,2016
+224,Fort St. Vrain,United States,1968,1979,1989
+225,Fugen ATR,Japan,1972,1979,2003
+226,Fukushima-Daiichi-1,Japan,1967,1971,2011
+227,Fukushima-Daiichi-2,Japan,1969,1974,2011
+228,Fukushima-Daiichi-3,Japan,1970,1976,2011
+229,Fukushima-Daiichi-4,Japan,1973,1978,2011
+230,Fukushima-Daiichi-5,Japan,1972,1978,2013
+231,Fukushima-Daiichi-6,Japan,1973,1979,2013
+242,G-2 (Marcoule),France,1955,1959,1980
+243,G-3 (Marcoule),France,1956,1960,1984
+244,Garigliano,Italy,1959,1964,1982
+245,Ge Vallecitos,United States,1956,1957,1963
+246,Genkai-1,Japan,1971,1975,2015
+250,Gentilly-1 (Demo),Canada,1966,1972,1977
+251,Gentilly-2,Canada,1974,1983,2012
+252,GKN Dodewaard,Netherlands,1965,1969,1997
+256,Grafenrheinfeld,Germany,1975,1982,2015
+264,Greifswald-1,Germany,1970,1974,1990
+265,Greifswald-2,Germany,1970,1975,1990
+266,Greifswald-3,Germany,1972,1978,1990
+267,Greifswald-4,Germany,1972,1979,1990
+268,Greifswald-5,Germany,1976,1989,1989
+270,Grosswelzheim,Germany,1965,1970,1971
+271,Gundremmingen-A,Germany,1962,1967,1977
+272,Gundremmingen-B,Germany,1976,1984,2017
+275,Haddam Neck,United States,1964,1968,1996
+280,Hallam,United States,1959,1963,1964
+281,Hamaoka-1,Japan,1971,1976,2009
+282,Hamaoka-2,Japan,1974,1978,2009
+311,Hinkley Point-A1,United Kingdom,1957,1965,2000
+312,Hinkley Point-A2,United Kingdom,1957,1965,2000
+326,Humboldt Bay,United States,1960,1963,1976
+327,Hunterston-A1,United Kingdom,1957,1964,1990
+328,Hunterston-A2,United Kingdom,1957,1964,1989
+331,Ignalina-1,Lithuania,1977,1985,2004
+332,Ignalina-2,Lithuania,1978,1987,2009
+334,Ikata-1,Japan,1973,1977,2016
+335,Ikata-2,Japan,1978,1982,2018
+337,Indian Point-1,United States,1956,1962,1974
+340,Isar-1,Germany,1972,1979,2011
+345,Jose Cabrera-1 (Zorita),Spain,1964,1969,2006
+346,JPDR,Japan,1960,1965,1976
+347,Juelich,Germany,1961,1969,1988
+348,Kahl,Germany,1958,1962,1985
+369,Karlsruhe MZFR,Germany,1961,1966,1984
+377,Kewaunee,United States,1968,1974,2013
+382,KNK-II,Germany,1974,1979,1991
+389,Kori-1,Republic of Korea,1972,1978,2017
+393,Kozloduy-1,Bulgaria,1970,1974,2002
+394,Kozloduy-2,Bulgaria,1970,1975,2002
+395,Kozloduy-3,Bulgaria,1973,1981,2006
+396,Kozloduy-4,Bulgaria,1973,1982,2006
+400,Kruemmel,Germany,1974,1984,2011
+417,LaCrosse,United States,1963,1969,1987
+422,Latina,Italy,1958,1964,1987
+428,Leningrad-1,Russian Federation,1970,1974,2018
+440,Lingen,Germany,1964,1968,1977
+450,Maine Yankee,United States,1968,1972,1997
+453,Mihama-1,Japan,1967,1970,2015
+454,Mihama-2,Japan,1968,1972,2015
+456,Millstone-1,United States,1966,1971,1998
+466,Muelheim-Kaerlich,Germany,1975,1987,1988
+469,Neckarwestheim-1,Germany,1972,1976,2011
+471,Niederaichbach,Germany,1966,1973,1974
+488,Novovoronezh-1,Russian Federation,1957,1964,1988
+489,Novovoronezh-2,Russian Federation,1964,1970,1990
+490,Novovoronezh-3,Russian Federation,1967,1972,2016
+493,Obrigheim,Germany,1965,1969,2005
+497,Ohi-1,Japan,1972,1979,2018
+498,Ohi-2,Japan,1972,1979,2018
+502,Oldbury-A1,United Kingdom,1962,1967,2012
+503,Oldbury-A2,United Kingdom,1962,1968,2011
+511,Oskarshamn-1,Sweden,1966,1972,2017
+512,Oskarshamn-2,Sweden,1969,1975,2016
+514,Oyster Creek,United States,1964,1969,2018
+527,Pathfinder,United States,1959,1966,1967
+528,Peach Bottom-1,United States,1962,1967,1974
+537,Phenix,France,1968,1974,2010
+538,Philippsburg-1,Germany,1970,1980,2011
+541,Pickering-2,Canada,1966,1971,2007
+542,Pickering-3,Canada,1967,1972,2008
+549,Piqua,United States,1960,1963,1966
+574,Rancho Seco-1,United States,1969,1975,1989
+575,Rheinsberg,Germany,1960,1966,1990
+581,Rolphton NPD,Canada,1958,1962,1987
+592,San Onofre-1,United States,1964,1968,1992
+593,San Onofre-2,United States,1974,1983,2013
+594,San Onofre-3,United States,1974,1984,2013
+601,Santa Maria de Garona,Spain,1966,1971,2017
+602,Saxton,United States,1960,1967,1972
+618,Shimane-1,Japan,1970,1974,2015
+631,Shippingport,United States,1954,1958,1982
+632,Shoreham,United States,1972,1986,1989
+637,Sizewell-A1,United Kingdom,1961,1966,2006
+638,Sizewell-A2,United Kingdom,1961,1966,2006
+653,St. Laurent-A1,France,1963,1969,1990
+654,St. Laurent-A2,France,1966,1971,1992
+659,Stade,Germany,1967,1972,2003
+663,Super-Phenix,France,1976,1986,1998
+685,Three Mile Island-2,United States,1969,1978,1979
+686,THTR-300,Germany,1971,1987,1988
+696,Tokai-1,Japan,1961,1966,1998
+703,Trawsfynydd-1,United Kingdom,1959,1965,1991
+704,Trawsfynydd-2,United Kingdom,1959,1965,1991
+711,Trojan,United States,1970,1976,1992
+712,Tsuruga-1,Japan,1966,1970,2015
+724,Unterweser,Germany,1972,1979,2011
+725,Vandellos-1,Spain,1968,1972,1990
+727,Vermont Yankee,United States,1967,1972,2014
+737,Windscale AGR,United Kingdom,1958,1963,1981
+738,Winfrith SGHWR,United Kingdom,1963,1968,1990
+746,Wuergassen,Germany,1968,1975,1994
+749,Wylfa-1,United Kingdom,1963,1971,2015
+750,Wylfa-2,United Kingdom,1963,1972,2012
+763,Yankee Rowe,United States,1957,1961,1991
+777,Zion-1,United States,1968,1973,1998
+778,Zion-2,United States,1968,1974,1998
