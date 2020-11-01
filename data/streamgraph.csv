@@ -1,0 +1,208 @@
+,Year,Status,Count
+0,1951,Under Construction,1
+1,1952,Under Construction,0
+2,1953,Under Construction,2
+3,1954,Under Construction,1
+4,1955,Under Construction,8
+5,1956,Under Construction,5
+6,1957,Under Construction,13
+7,1958,Under Construction,6
+8,1959,Under Construction,7
+9,1960,Under Construction,11
+10,1961,Under Construction,8
+11,1962,Under Construction,8
+12,1963,Under Construction,5
+13,1964,Under Construction,9
+14,1965,Under Construction,9
+15,1966,Under Construction,15
+16,1967,Under Construction,25
+17,1968,Under Construction,37
+18,1969,Under Construction,13
+19,1970,Under Construction,37
+20,1971,Under Construction,15
+21,1972,Under Construction,27
+22,1973,Under Construction,26
+23,1974,Under Construction,29
+24,1975,Under Construction,33
+25,1976,Under Construction,32
+26,1977,Under Construction,17
+27,1978,Under Construction,14
+28,1979,Under Construction,24
+29,1980,Under Construction,20
+30,1981,Under Construction,18
+31,1982,Under Construction,14
+32,1983,Under Construction,11
+33,1984,Under Construction,8
+34,1985,Under Construction,12
+35,1986,Under Construction,5
+36,1987,Under Construction,7
+37,1988,Under Construction,5
+38,1989,Under Construction,7
+39,1990,Under Construction,6
+40,1991,Under Construction,2
+41,1992,Under Construction,3
+42,1993,Under Construction,6
+43,1994,Under Construction,2
+44,1995,Under Construction,0
+45,1996,Under Construction,1
+46,1997,Under Construction,7
+47,1998,Under Construction,3
+48,1999,Under Construction,6
+49,2000,Under Construction,7
+50,2001,Under Construction,1
+51,2002,Under Construction,5
+52,2003,Under Construction,1
+53,2004,Under Construction,2
+54,2005,Under Construction,3
+55,2006,Under Construction,4
+56,2007,Under Construction,8
+57,2008,Under Construction,10
+58,2009,Under Construction,12
+59,2010,Under Construction,16
+60,2011,Under Construction,4
+61,2012,Under Construction,7
+62,2013,Under Construction,10
+63,2014,Under Construction,3
+64,2015,Under Construction,8
+65,2016,Under Construction,3
+66,2017,Under Construction,4
+67,2018,Under Construction,5
+68,2019,Under Construction,1
+69,1951,Operational,0
+70,1952,Operational,0
+71,1953,Operational,0
+72,1954,Operational,1
+73,1955,Operational,0
+74,1956,Operational,1
+75,1957,Operational,2
+76,1958,Operational,2
+77,1959,Operational,5
+78,1960,Operational,3
+79,1961,Operational,1
+80,1962,Operational,9
+81,1963,Operational,6
+82,1964,Operational,9
+83,1965,Operational,10
+84,1966,Operational,8
+85,1967,Operational,5
+86,1968,Operational,7
+87,1969,Operational,12
+88,1970,Operational,7
+89,1971,Operational,11
+90,1972,Operational,19
+91,1973,Operational,15
+92,1974,Operational,21
+93,1975,Operational,23
+94,1976,Operational,14
+95,1977,Operational,17
+96,1978,Operational,16
+97,1979,Operational,19
+98,1980,Operational,13
+99,1981,Operational,25
+100,1982,Operational,10
+101,1983,Operational,21
+102,1984,Operational,29
+103,1985,Operational,41
+104,1986,Operational,27
+105,1987,Operational,23
+106,1988,Operational,20
+107,1989,Operational,20
+108,1990,Operational,9
+109,1991,Operational,5
+110,1992,Operational,4
+111,1993,Operational,10
+112,1994,Operational,7
+113,1995,Operational,5
+114,1996,Operational,5
+115,1997,Operational,3
+116,1998,Operational,3
+117,1999,Operational,2
+118,2000,Operational,8
+119,2001,Operational,2
+120,2002,Operational,9
+121,2003,Operational,3
+122,2004,Operational,2
+123,2005,Operational,6
+124,2006,Operational,3
+125,2007,Operational,4
+126,2008,Operational,0
+127,2009,Operational,1
+128,2010,Operational,5
+129,2011,Operational,5
+130,2012,Operational,3
+131,2013,Operational,3
+132,2014,Operational,6
+133,2015,Operational,8
+134,2016,Operational,12
+135,2017,Operational,5
+136,2018,Operational,9
+137,2019,Operational,1
+138,1951,Shutdown,0
+139,1952,Shutdown,0
+140,1953,Shutdown,0
+141,1954,Shutdown,0
+142,1955,Shutdown,0
+143,1956,Shutdown,0
+144,1957,Shutdown,0
+145,1958,Shutdown,0
+146,1959,Shutdown,0
+147,1960,Shutdown,0
+148,1961,Shutdown,0
+149,1962,Shutdown,0
+150,1963,Shutdown,1
+151,1964,Shutdown,1
+152,1965,Shutdown,0
+153,1966,Shutdown,1
+154,1967,Shutdown,2
+155,1968,Shutdown,2
+156,1969,Shutdown,1
+157,1970,Shutdown,0
+158,1971,Shutdown,1
+159,1972,Shutdown,2
+160,1973,Shutdown,1
+161,1974,Shutdown,4
+162,1975,Shutdown,0
+163,1976,Shutdown,2
+164,1977,Shutdown,5
+165,1978,Shutdown,1
+166,1979,Shutdown,1
+167,1980,Shutdown,1
+168,1981,Shutdown,1
+169,1982,Shutdown,2
+170,1983,Shutdown,1
+171,1984,Shutdown,3
+172,1985,Shutdown,3
+173,1986,Shutdown,1
+174,1987,Shutdown,4
+175,1988,Shutdown,5
+176,1989,Shutdown,7
+177,1990,Shutdown,14
+178,1991,Shutdown,6
+179,1992,Shutdown,3
+180,1993,Shutdown,0
+181,1994,Shutdown,3
+182,1995,Shutdown,0
+183,1996,Shutdown,2
+184,1997,Shutdown,3
+185,1998,Shutdown,5
+186,1999,Shutdown,2
+187,2000,Shutdown,3
+188,2001,Shutdown,0
+189,2002,Shutdown,5
+190,2003,Shutdown,6
+191,2004,Shutdown,5
+192,2005,Shutdown,2
+193,2006,Shutdown,8
+194,2007,Shutdown,1
+195,2008,Shutdown,2
+196,2009,Shutdown,3
+197,2010,Shutdown,1
+198,2011,Shutdown,13
+199,2012,Shutdown,3
+200,2013,Shutdown,6
+201,2014,Shutdown,1
+202,2015,Shutdown,7
+203,2016,Shutdown,4
+204,2017,Shutdown,5
+205,2018,Shutdown,6
+206,2019,Shutdown,1
