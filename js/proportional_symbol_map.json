@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "width": 900,
-  "height": 600,
-  "projection": {"type": "equalEarth"},
+  "height": 400,
+  "projection": {"type": "equirectangular"},
   "params": [
     {
       "name": "ReactorType_selection",
@@ -24,7 +24,7 @@
           "SGHWR"
         ],
         "labels": [
-          "Show All",
+          "--- None ---",
           "Advanced Boiling Water Reactor (ABWR)",
           "Boiling Water Reactor (BWR)",
           "Fast Breeder Reactor (FBR)",
@@ -48,11 +48,7 @@
         "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/js/worldmap.topojson",
         "format": {"type": "topojson", "feature": "worldmap"}
       },
-      "mark": {
-            "type": "geoshape", 
-            "fill": "lightgray", 
-            "stroke": "gray"
-      }
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "gray"}
     },
     {
       "data": {
@@ -65,51 +61,54 @@
       "layer": [
         {
           "transform": [
-            {"filter": "datum['Longitude'] != '' && datum['Latitude'] != '' && datum['ReactorType'] != ''"},
-            {"filter": "ReactorType_selection == null || datum.ReactorType == ReactorType_selection"}
+            {
+              "filter": "datum['Longitude'] != '' && datum['Latitude'] != '' && datum['ReactorType'] != ''"
+            },
+            {
+              "filter": "datum.ReactorType == ReactorType_selection"
+            }
           ],
           "mark": {"type": "circle", "stroke": "black"},
           "encoding": {
             "size": {
-              "field": "Capacity", 
+              "field": "Capacity",
               "type": "quantitative",
               "scale": {
                 "type": "threshold",
                 "domain": [10, 100, 500, 1000],
-                "range": [100, 200, 300, 400, 500]
+                "range": [10, 100, 250, 500, 1000]
               },
               "legend": {"format": ","}
             },
             "color": {
-              "field": "ReactorType", 
-              "type": "nominal",
-              "scale": {
-                "domain": [
-                  "ABWR",
-                  "BWR",
-                  "FBR",
-                  "GCR",
-                  "HTGR",
-                  "HWGCR",
-                  "HWLWR",
-                  "LWGR",
-                  "OCR",
-                  "PHWR",
-                  "PWR",
-                  "SGHWR"
-                ]
-              }            
+              "value": "#fdd0a2"
             },
             "opacity": {"value": 0.3},
             "tooltip": [
-              {"field": "Name", "type": "nominal", "title": "Nuclear Power Plant's Name"},
-              {"field": "Country", "type": "nominal", "title": "Nuclear Power Plant's Country"}, 
-              {"field": "ReactorType", "type": "nominal", "title": "Nuclear Power Plant's Reactor Type"},
-              {"field": "Capacity", "type": "quantitative", "title": "Nuclear Power Plant's Capacity", "format": ","}
+              {
+                "field": "Name",
+                "type": "nominal",
+                "title": "Nuclear Power Plant's Name"
+              },
+              {
+                "field": "Country",
+                "type": "nominal",
+                "title": "Nuclear Power Plant's Country"
+              },
+              {
+                "field": "ReactorType",
+                "type": "nominal",
+                "title": "Nuclear Power Plant's Reactor Type"
+              },
+              {
+                "field": "Capacity",
+                "type": "quantitative",
+                "title": "Nuclear Power Plant's Capacity",
+                "format": ","
+              }
             ]
           }
         }
-        
       ]
     }
   ]
