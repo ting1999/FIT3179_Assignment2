@@ -5,42 +5,47 @@
   "data": {
     "url": "https://raw.githubusercontent.com/ting1999/FIT3179_Assignment2/main/data/radial_plot.csv"
   },
-  "layer": [{
-    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
-  },{
-    "mark": {"type": "text", "radiusOffset": 10},
-    "encoding": {
-      "text": {"field": "Total", "type": "quantitative"}
+  "transform": [
+    {"filter": "datum['Total'] > 10"}
+  ],
+  "layer": [
+    {"mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}},
+    {
+      "mark": {"type": "text", "radiusOffset": 10},
+      "encoding": {"text": {"field": "Total", "type": "quantitative"}}
     }
-  }],
+  ],
   "encoding": {
     "theta": {"field": "Total", "type": "quantitative", "stack": true},
-    "radius": {"field": "Total", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+    "radius": {
+      "field": "Total",
+      "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}
+    },
     "color": {
-      "field": "Status", 
+      "field": "Status",
       "type": "nominal",
       "scale": {
         "domain": [
-          "Cancelled Construction",
-          "Operational",
           "Planned",
-          "Shutdown",
-          "Suspended Construction",
-          "Under Construction"
+          "Under Construction",
+          "Operational",
+          "Shutdown"
         ],
         "range": [
-          "#984ea3",
-          "#1aa260",
           "#a6cee3",
-          "#e41a1c",
-          "#a65628",
-          "#377eb8"
+          "#377eb8",
+          "#1aa260",
+          "#e41a1c"
         ]
       }
     },
     "tooltip": [
       {"field": "Status", "type": "nominal"},
-      {"field": "Total", "type": "quantitative", "title": "Number of Nuclear Power Plant"}
+      {
+        "field": "Total",
+        "type": "quantitative",
+        "title": "Number of Nuclear Power Plant"
+      }
     ]
   },
   "view": {"stroke": null}
