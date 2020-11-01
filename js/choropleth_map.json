@@ -38,10 +38,10 @@
             "domain": [1, 10000, 50000, 100000],
             "range": [
               "lightgray", 
-              "#fcbba1",
-              "#fc9272",
-              "#fb6a4a",
-              "#ef3b2c"
+              "#fdd0a2", 
+              "#fdae6b", 
+              "#fd8d3c", 
+              "#f16913"
             ]
           },
           "legend": {"format": ",", "title": "Nuclear Energy"}
