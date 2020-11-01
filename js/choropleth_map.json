@@ -55,7 +55,7 @@
           {
             "field": "Capacity",
             "type": "quantitative",
-            "title": "Nuclear Energy",
+            "title": "Nuclear Energy produced",
             "format": ","
           }
         ]
