@@ -43,12 +43,12 @@
       {
         "field": "Status", 
         "type": "nominal",
-        "title": "Status of Nuclear Power Plants"
+        "title": "Status of Nuclear Power Plant"
       },
       {
         "field": "Total",
         "type": "quantitative",
-        "title": "Number of Nuclear Power Plants"
+        "title": "Number of Nuclear Power Plant"
       }
     ]
   },
