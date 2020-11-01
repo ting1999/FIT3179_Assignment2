@@ -25,8 +25,8 @@
     },
     "tooltip": [
       {"field": "Year", "type": "ordinal", "timeUnit": "year", "title": "Year"},
-      {"field": "Status", "type": "nominal", "title": "Status of Nuclear Power Plants"},
-      {"field": "Count", "type": "quantitative", "title": "Number of Nuclear Power Plants"}
+      {"field": "Status", "type": "nominal", "title": "Status of Nuclear Power Plant"},
+      {"field": "Count", "type": "quantitative", "title": "Number of Nuclear Power Plant"}
     ]
   }
 }
